@@ -10,5 +10,4 @@ problems by semantic consolidation followed by sequential local execution.
 
 This source release includes method code, prompt templates, preprocessing,
 training configurations for seven backbone families, inference, answer scoring,
-statistical evaluation, and unit tests. See
-[release scope and requirements](docs/reproducibility.md).
+statistical evaluation, and unit tests. 
