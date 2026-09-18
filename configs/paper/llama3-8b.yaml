@@ -1,0 +1,51 @@
+training:
+  common:
+    model_name_or_path: meta-llama/Meta-Llama-3-8B
+    max_length: 2048
+    epochs: 3
+    learning_rate: 2.0e-4
+    per_device_train_batch_size: 1
+    per_device_eval_batch_size: 1
+    gradient_accumulation_steps: 16
+    warmup_ratio: 0.03
+    weight_decay: 0.0
+    logging_steps: 10
+    save_steps: 250
+    eval_steps: 250
+    seed: 42
+    qlora: true
+    bf16: true
+    gradient_checkpointing: true
+    lora_rank: 64
+    lora_alpha: 16
+    lora_dropout: 0.05
+    target_modules: all-linear
+    trust_remote_code: false
+  decomposer:
+    train_file: data/processed/decomposer_train.jsonl
+    validation_file: data/processed/decomposer_validation.jsonl
+    output_dir: outputs/llama3-8b/seed42/decomposer
+  executor:
+    train_file: data/processed/executor_train.jsonl
+    validation_file: data/processed/executor_validation.jsonl
+    output_dir: outputs/llama3-8b/seed42/executor
+  cot:
+    train_file: data/processed/cot_train.jsonl
+    validation_file: data/processed/cot_validation.jsonl
+    output_dir: outputs/llama3-8b/seed42/cot
+model:
+  nominal_parameters: 8000000000
+  name_or_path: meta-llama/Meta-Llama-3-8B
+  decomposer_adapter: outputs/llama3-8b/seed42/decomposer/adapter
+  executor_adapter: outputs/llama3-8b/seed42/executor/adapter
+  cot_adapter: outputs/llama3-8b/seed42/cot/adapter
+  qlora: true
+  bf16: true
+  trust_remote_code: false
+inference:
+  max_subtasks: 10
+  max_new_tokens: 256
+  consolidation: true
+  threshold: 0.25
+  embedding_model: princeton-nlp/sup-simcse-roberta-base
+  embedding_batch_size: 32

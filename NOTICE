@@ -1,0 +1,19 @@
+KEIR — Knowledge-Enhanced Iterative Reasoning
+
+Research authors: Xingnan Jin, Yongping Du, and Honggui Han.
+Affiliation: Beijing University of Technology.
+Corresponding author: Yongping Du <ypdu@bjut.edu.cn>.
+
+This release derives from the KEIR reproduction implementation.
+Copyright (c) 2026 KEIR reproduction contributors.
+Original copyright notices and third-party notices are retained.
+
+The repository license covers the included source code and documentation.
+It does not license assets absent from this repository, including the generated
+training corpus, model weights, or private experiment records. Third-party
+datasets and models remain subject to their respective terms.
+
+Please cite the manuscript using CITATION.cff when reporting research based on
+this implementation, as specified in the KEIR Non-Commercial Research License.
+Separately identified third-party components retain their original licenses.
+No endorsement by the authors is implied by reuse of the software.

@@ -1,0 +1,71 @@
+KEIR Non-Commercial Research License
+Version 1.0
+
+Copyright (c) 2026 KEIR reproduction contributors.
+
+1. Scope
+
+This license applies to the KEIR source code and documentation supplied with
+this license (the Software), except for separately identified third-party
+material. Such material retains its original license as described in
+THIRD_PARTY_NOTICES.md. Rights granted under earlier licenses are unaffected.
+
+2. Permitted non-commercial research use
+
+The copyright holders grant you a worldwide, royalty-free, non-exclusive
+permission to access, execute, copy, study, modify and redistribute the
+Software solely for non-commercial scientific research, scholarly evaluation,
+reproduction of published research, and teaching connected with such research,
+subject to all of the following conditions:
+
+(a) Retain this license, all copyright notices and third-party notices in
+copies and substantial portions of the Software.
+(b) Identify modified versions as modified, and describe material changes.
+(c) Distribute covered copies and modifications under these same terms; you
+may not grant rights to covered material beyond those granted here.
+(d) Acknowledge KEIR and cite the accompanying manuscript, using CITATION.cff,
+in scholarly publications reporting research that materially uses the Software.
+Do not misrepresent authorship or imply endorsement by the authors.
+
+3. Commercial use requires separate permission
+
+Commercial use is not granted. Obtain prior written authorization from the
+copyright holders through the corresponding author before using the Software
+in, or for the development of, commercial products or services, paid consulting,
+production systems serving a commercial purpose, or research or model training
+primarily intended for commercial deployment. This restriction concerns the
+purpose of the use, not merely the user's institutional affiliation. If a use
+is outside the permission in Section 2, separate written permission is required.
+
+4. Excluded assets and other rights
+
+This license does not grant access to, or rights in, any generated training
+corpus, pretrained or fine-tuned model weights, credentials or experiment records
+not included in this distribution. Third-party datasets and models have their
+own terms. No trademark, patent, or endorsement rights are granted by this
+license. This license does not restrict rights you independently hold under
+applicable law or a separate license, including identified third-party licenses.
+
+5. Termination
+
+The permission granted here terminates if you breach its conditions. Upon
+termination, stop exercising rights granted by this license. Reinstatement
+requires written permission from the copyright holders. This does not terminate
+independent rights in third-party material or previously licensed versions.
+
+6. Disclaimer
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. TO THE MAXIMUM EXTENT
+PERMITTED BY APPLICABLE LAW, THE COPYRIGHT HOLDERS AND CONTRIBUTORS SHALL NOT
+BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY ARISING FROM, OUT OF OR IN
+CONNECTION WITH THE SOFTWARE OR ITS USE.
+
+7. Contact
+
+For commercial licensing or permission outside this license, contact
+Yongping Du, Beijing University of Technology: ypdu@bjut.edu.cn.
+
+This is a source-available research license with a field-of-use restriction.
+It is not an OSI-approved open-source license.

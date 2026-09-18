@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use KEIR, please cite the accompanying manuscript."
+title: "KEIR: Knowledge-Enhanced Iterative Reasoning"
+type: software
+version: 0.4.5
+repository-code: "https://github.com/jinxingnan/KEIR"
+authors:
+  - family-names: Jin
+    given-names: Xingnan
+  - family-names: Du
+    given-names: Yongping
+  - family-names: Han
+    given-names: Honggui
+preferred-citation:
+  type: unpublished
+  title: "Resource-Efficient Mathematical Problem Solving with Lower-Capacity Language Models via Knowledge-Enhanced Iterative Reasoning"
+  authors:
+    - family-names: Jin
+      given-names: Xingnan
+    - family-names: Du
+      given-names: Yongping
+    - family-names: Han
+      given-names: Honggui
+  year: 2026

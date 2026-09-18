@@ -1,0 +1,205 @@
+{
+  "version": "0.4.5",
+  "files": {
+    ".github/workflows/tests.yml": {
+      "bytes": 987,
+      "sha256": "2192df314e68688d4454be8a6557ccad75ecd04e8c68e6384de9f250e485df10"
+    },
+    ".gitignore": {
+      "bytes": 299,
+      "sha256": "51a52a344fad3255a1d63c414b40d269fa7af811817b23e948ec07fe759021d7"
+    },
+    "CITATION.cff": {
+      "bytes": 731,
+      "sha256": "d7841f893fed3996749b712b3d5ce4fa975403699586dde8587714e1858f8614"
+    },
+    "LICENSE": {
+      "bytes": 3503,
+      "sha256": "0ab4eda553d24d0aeb897125d95a875a4408be0fb7e26a2fbd795f37a26ea347"
+    },
+    "NOTICE": {
+      "bytes": 987,
+      "sha256": "f6be97cf35e25ca0871ec5ed33dbf14cfdd93824cf7fda7a388b408a87060269"
+    },
+    "THIRD_PARTY_NOTICES.md": {
+      "bytes": 1351,
+      "sha256": "bbf4ba02f0eae6fea3e2716c62f356ed2f5253d9a7dc20e33c17b05f294fa328"
+    },
+    "configs/paper/deepseek-llm-7b.yaml": {
+      "bytes": 1598,
+      "sha256": "13b56f6417852b0a52c418cdc00efdf8d7171e407f9ed6c8baca71efc5fbf2e2"
+    },
+    "configs/paper/gemma-7b.yaml": {
+      "bytes": 1522,
+      "sha256": "244138f0dbc74f034d7c5e6234656365bf2c178257fff8cebdee12ef0aed665c"
+    },
+    "configs/paper/gemma2-9b.yaml": {
+      "bytes": 1532,
+      "sha256": "1e7dfb23641e59c788a974870b9b6e9ff438255243ebe92b6edde0744836a0fa"
+    },
+    "configs/paper/llama2-7b.yaml": {
+      "bytes": 1546,
+      "sha256": "83e2f3e9b9196f6b852e40a03bdcc2099b24599aa8bfd081f48fad0a51c90361"
+    },
+    "configs/paper/llama3-8b.yaml": {
+      "bytes": 1550,
+      "sha256": "64d90640b4b15638a8beb5d9ee86e16dc1c2ba7952304fa6cd30d51068a0cb43"
+    },
+    "configs/paper/qwen1.5-7b.yaml": {
+      "bytes": 1534,
+      "sha256": "96ae2001392d83410007feebee9a8efd141946dd0dc3144e8a7a51cd136e4a3f"
+    },
+    "configs/paper/qwen2-7b.yaml": {
+      "bytes": 1518,
+      "sha256": "33014a6a5eb78bb97470d82ab2948efde464ed06d70f1d557a957a6206e4fdfc"
+    },
+    "licenses/hendrycks-math-MIT.txt": {
+      "bytes": 1070,
+      "sha256": "8f6401fb0b1fbfcac17aac8d61e4e1b0d2de9aa190d8aa655fedc5fd783b2ace"
+    },
+    "pyproject.toml": {
+      "bytes": 901,
+      "sha256": "8625b6e30fd756aeec38ae5bd86292f63adb6bb1de771350ad9db1e6d4abcc2c"
+    },
+    "requirements.txt": {
+      "bytes": 28,
+      "sha256": "20e6d534528adf7b3f88cc70d100562eb27e14db1419f95d8b5da6f91203e5c7"
+    },
+    "scripts/evaluate_all.sh": {
+      "bytes": 697,
+      "sha256": "b7be06a6609c358d362860beff3b30453b3546646f54ab7cdb187390465d5b8c"
+    },
+    "scripts/train.sh": {
+      "bytes": 364,
+      "sha256": "0c511967b442dea0d709ab0c2675cf570cff7d1e7cc056083393a126e2c25235"
+    },
+    "scripts/verify_release.py": {
+      "bytes": 2740,
+      "sha256": "0c4ee365fe68620dafca827c348a396bb52680be4eda6810168ea02d7f8a72e3"
+    },
+    "src/keir/__init__.py": {
+      "bytes": 22,
+      "sha256": "12b90b908d930c15f5388aa2d8619adb408f7aee1972e9448be5df7d16cb53a3"
+    },
+    "src/keir/__main__.py": {
+      "bytes": 30,
+      "sha256": "6d8b7d7846a845059d7a3107143f11131f63c5511d669b44085b15ec5e3d2279"
+    },
+    "src/keir/answers.py": {
+      "bytes": 12197,
+      "sha256": "e00b67d56bddb85284c7024d3691118b57d0d1a4f48ae7052c13b01695ff4af3"
+    },
+    "src/keir/augmentation.py": {
+      "bytes": 4701,
+      "sha256": "feaba24504ba1cbb5d30cad0bd4aead1f1b184bc14cd8fbc539b2b88e42472e4"
+    },
+    "src/keir/balanced_training.py": {
+      "bytes": 11214,
+      "sha256": "fd38051eaa2abb5dba343ba210a7921d61bc7015d92fc73a15ad8c871ae7254f"
+    },
+    "src/keir/benchmarks.py": {
+      "bytes": 9164,
+      "sha256": "d3385138aed23a43d50b3d8c15880ea8cbaeef3e82338c61888e08d75dc7f26a"
+    },
+    "src/keir/cli.py": {
+      "bytes": 18258,
+      "sha256": "1a25cbf7b5b1cc17586eabe9123d1df212147db095841ab25d7aeb5ab2ab4b63"
+    },
+    "src/keir/config.py": {
+      "bytes": 1227,
+      "sha256": "10c6c9f3833aba076cb23f38d1df2ac5430b914c5436b33bc7de3214d80c227f"
+    },
+    "src/keir/consolidation.py": {
+      "bytes": 4838,
+      "sha256": "f78de8334fb27f58ae52c918fe6cfc427d495aaa91a30e3d3490e0661f505628"
+    },
+    "src/keir/costs.py": {
+      "bytes": 2992,
+      "sha256": "55b56ea6ea6b9bfdb7bbb6d6ab37d7d8e51b4a2c19c6cf6d7ff9ac15c34af0b3"
+    },
+    "src/keir/data.py": {
+      "bytes": 13237,
+      "sha256": "28535d8491e8650f455c9468e86c9808081f4f3c0d4cbc826b28a6ff01ab6f05"
+    },
+    "src/keir/evaluation.py": {
+      "bytes": 19557,
+      "sha256": "4a715246b9109453c0888d13afa85165b2be2a469456d2a8f2bf27ce16e96349"
+    },
+    "src/keir/inference.py": {
+      "bytes": 11551,
+      "sha256": "e7975f469d161f1e07b6bafd5f237feb618713aa672acbef26c116fcb123725e"
+    },
+    "src/keir/io.py": {
+      "bytes": 2325,
+      "sha256": "0691d3bafdc92816231bd560c9b3bea3b4914a1bdad5868f605097cc94a5a010"
+    },
+    "src/keir/profiling.py": {
+      "bytes": 3526,
+      "sha256": "ed31a358f9dedc812a3ebb7ab1740b94a008269501ee628a56e35262b2efcbb3"
+    },
+    "src/keir/prompts.py": {
+      "bytes": 7517,
+      "sha256": "14b19c2413a20eda81ac9a972bd1c7ee3c99d5dc1840e1575fe6219c4404d9bf"
+    },
+    "src/keir/schemas.py": {
+      "bytes": 4863,
+      "sha256": "304feb00fb895fc4a6730cd3c59e8f09e51fb8a990c3f4c71f9c629f830bede0"
+    },
+    "src/keir/socratic.py": {
+      "bytes": 15103,
+      "sha256": "810faa93c1973071a228cd9172e4844b0f0a93256546c4597818de465d33554d"
+    },
+    "src/keir/target_review.py": {
+      "bytes": 5513,
+      "sha256": "5a79172213c83be18a97ffe6d57186ca84ac2e232b6c23200e7e245b42bf8d46"
+    },
+    "src/keir/teacher_stage_a.py": {
+      "bytes": 10004,
+      "sha256": "4de5c001145c97db17ea8af371d25559048272888a45e3db0101b2ce1410732e"
+    },
+    "src/keir/teacher_stage_b.py": {
+      "bytes": 12146,
+      "sha256": "b2e40b053401a5bad3578e101a4f9b51f5177fcb31f415372f7b32c22aecfb17"
+    },
+    "src/keir/training.py": {
+      "bytes": 11849,
+      "sha256": "63472b6100459f72b45078290aa6f54535094838a357552f5ac743cd971164c6"
+    },
+    "tests/test_algorithms.py": {
+      "bytes": 1973,
+      "sha256": "949ba3c6028c54fde81d5951320c0c6452c4364198ec47671e927e364ccadf85"
+    },
+    "tests/test_answers.py": {
+      "bytes": 6532,
+      "sha256": "08baf202b635c102cd983e2980fcf9f723e461e1715116e9a802cfe45587f522"
+    },
+    "tests/test_augmentation.py": {
+      "bytes": 1456,
+      "sha256": "69a24ff8634ed0bdaddf8c621851ff85358fcd40b99150295ab8a1f76f8da5a9"
+    },
+    "tests/test_costs.py": {
+      "bytes": 2435,
+      "sha256": "c5e3cd741541f957e4fad60b1d668d7627a2abec66757e6b58f2b6c0f8e0f29e"
+    },
+    "tests/test_pipeline_fixes.py": {
+      "bytes": 12206,
+      "sha256": "26ce22a4ced98e5c7882a5353fb22f441e2540fef965a51378710d298b81f581"
+    },
+    "tests/test_socratic.py": {
+      "bytes": 5505,
+      "sha256": "a43720c14efd1c38c80bb8038b6bb01097d551c003f793496bc7db5a9a0a5400"
+    },
+    "tests/test_teacher_stage_a.py": {
+      "bytes": 1673,
+      "sha256": "2aa9c9bd499baf2787985c114ebcaade0b5140349f473dd6f290221d024a5785"
+    },
+    "tests/test_teacher_stage_b.py": {
+      "bytes": 2372,
+      "sha256": "7f072a0cdfe981b0bd337e0271e42000835d3e4e8138d9f5129ec7126f755705"
+    },
+    "tests/test_training.py": {
+      "bytes": 5717,
+      "sha256": "20d93d75d9d529f0dfa14f7e90d6830cdab9ea1ceaf668393f8f0b50ca8f804f"
+    }
+  }
+}

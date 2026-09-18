@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "keir-reference"
+version = "0.4.5"
+requires-python = ">=3.10"
+license = {text = "KEIR Non-Commercial Research License 1.0"}
+authors = [{name = "KEIR contributors"}]
+dependencies = ["numpy>=1.23,<2", "PyYAML>=6"]
+
+[project.optional-dependencies]
+ml = ["torch>=2.3,<2.4", "transformers>=4.46,<4.47", "datasets>=3.1,<3.2", "accelerate>=1.0,<1.1", "peft>=0.13,<0.14"]
+qlora = ["bitsandbytes>=0.43,<0.44"]
+teacher = ["openai>=1.40,<2"]
+test = ["pytest>=7.4"]
+
+[project.scripts]
+keir = "keir.cli:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+license-files = ["LICENSE", "NOTICE", "THIRD_PARTY_NOTICES.md", "licenses/*"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
